@@ -155,7 +155,8 @@ function StickyCartBar({ visible }) {
         </div>
         <a
           href="#bundle"
-          className="inline-flex items-center justify-center gap-2 rounded-full bg-black px-6 py-4 text-sm font-semibold uppercase tracking-[0.16em] text-white transition hover:scale-105"
+          style={{ color: "#ffffff" }}
+          className="inline-flex items-center justify-center gap-2 rounded-full bg-black px-6 py-4 text-sm font-semibold uppercase tracking-[0.16em] text-white transition hover:scale-105 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black/20"
         >
           <ShoppingCart className="h-4 w-4" />
           Add To Cart
@@ -223,7 +224,8 @@ function App() {
 
           <a
             href="#bundle"
-            className="inline-flex items-center rounded-full border border-black/10 px-4 py-2 text-sm font-semibold text-zinc-950 transition hover:border-black hover:bg-black hover:text-white"
+            style={{ color: "#18181b" }}
+            className="inline-flex items-center rounded-full border border-black/10 px-4 py-2 text-sm font-semibold text-zinc-950 transition hover:border-black hover:bg-black hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black/20"
           >
             Shop Now
           </a>
@@ -254,13 +256,15 @@ function App() {
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
                 <a
                   href="#bundle"
-                  className="inline-flex items-center justify-center rounded-full bg-black px-7 py-4 text-base font-semibold text-white transition hover:scale-105"
+                  style={{ color: "#ffffff" }}
+                  className="inline-flex items-center justify-center rounded-full bg-black px-7 py-4 text-base font-semibold text-white transition hover:scale-105 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black/20"
                 >
                   Buy Now - $299
                 </a>
                 <a
                   href="#features"
-                  className="inline-flex items-center justify-center rounded-full border border-black/10 bg-white px-7 py-4 text-base font-semibold text-zinc-950 transition hover:border-black"
+                  style={{ color: "#18181b" }}
+                  className="inline-flex items-center justify-center rounded-full border border-black/10 bg-white px-7 py-4 text-base font-semibold text-zinc-950 transition hover:border-black hover:text-zinc-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black/10"
                 >
                   Explore Features
                 </a>
@@ -463,7 +467,8 @@ function App() {
                   </div>
                   <a
                     href="#"
-                    className="mt-6 inline-flex w-full animate-pulse items-center justify-center rounded-full bg-black px-6 py-4 text-sm font-semibold uppercase tracking-[0.16em] text-white transition hover:scale-105"
+                    style={{ color: "#ffffff" }}
+                    className="mt-6 inline-flex w-full animate-pulse items-center justify-center rounded-full bg-black px-6 py-4 text-sm font-semibold uppercase tracking-[0.16em] text-white transition hover:scale-105 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black/20"
                   >
                     Claim My Bundle Now
                   </a>
